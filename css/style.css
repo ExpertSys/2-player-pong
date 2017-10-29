@@ -1,0 +1,47 @@
+body, html {
+  margin: 0 auto;
+  text-align: center;
+  overflow:hidden;
+  font-family: "Contrail One", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  background:#22292C;
+
+}
+
+#game{
+	background-color: #22292C;
+  border-right:15px solid #fff;
+  border-left:15px solid #fff;
+}
+
+.gameUp{
+  background-color: red;
+}
+
+h1 {
+	position: absolute;
+}
+
+h1:first-child{
+	left: 50%;
+  margin-left: -59px;
+  display: block;
+  color:#fff;
+  z-index:2;
+  float: left;
+}
+
+h1:nth-child(2){
+	right: 5%;
+  display: block;
+  color:#fff;
+  z-index:2;
+  float: right;
+  bottom: -30px;
+  right: 50%;
+  margin-right: -89px;
+  margin-top: 10px;
+
+
+}

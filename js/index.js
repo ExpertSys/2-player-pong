@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $(".player1-btns, .player2-btns").fadeOut(5000);
+});
+
 var canvas = document.getElementsByTagName('canvas')[0];
 var c = canvas.getContext('2d');
 canvas.width = 700;
@@ -59,11 +63,11 @@ function Paddle(y, color, controls, score) {
 
     this.steer = function() {
         if (controls === "top") {
-            if (keyState[37]) {
+            if (keyState[97]) {
                this.velX -= .3;
             }
 
-            if (keyState[39]) {
+            if (keyState[99]) {
                 this.velX += .3;
             }
         }
